@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  .container{
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  }
+.pre_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.li_list{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  list-style: none;
+  width: 100%;
+  gap: 10px;
+}
+.add{
+  display: flex;
+  align-items: center;
+  background-color: #f9d776;
+  height: 34px;
+  border-radius: 5px;
+  margin: 20px 0 20px 0;
+  padding: 1.5rem;
+}
+.ul_list{
+  width: 100%;
+}
+.li_list li{
+  width: 50%;
+}
+.permission_access{
+  padding-left: 1.5rem;
+}
+
+.active_inactive span{
+  display: inline-block;
+  padding-top: -30rem;
+}
+.acttive_button{
+  margin-left: 4rem !important;
+}
+
+/* Acitve Role  css*/
+
+.container1 {
+  width: 50%;
+  margin: 5px 4px 0 90px;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 12px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.active-inactive-container {
+  background-color: #f9d776;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -42px;
+  margin-left: 11rem;
+}
+
+.active-inactive-container span {
+  font-weight: bold;
+  margin-right: 10px;
+  /* width: 10rem; */
+  width: 115px;
+}
+
+input[type="checkbox1"] {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+.text-danger {
+  color: red;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+

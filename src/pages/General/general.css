@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.input-box{
+    width: 30%;
+}
+.text-danger{
+    padding: 8px;
+}
+
+.dropdown-toggle{
+    width: 26% !important;
+    height: 35px !important;
+}
+#dropdownMenuButton{
+    font-size: 15px !important;
+}
+.dropdown-menu{
+    width: 26%;
+    font-family: "Roboto", serif !important;
+    text-align: justify !important;
+    padding: 0px 23px !important;
+}
+.btn-secondary {
+    color: #000 !important;
+    background: #fff !important;
+    border-radius: none;
+}
+
+.dropdown-menu {
+    max-height: 200px; 
+    overflow-y: auto; 
+    transition: max-height 0.3s ease-in-out; 
+    scrollbar-width: thin; 
+    scrollbar-color: #888888 #f1f1f1; 
+  }
+  .dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 3px;
+  }
+  .dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  .dropdown-toggle::after{
+    margin-left: 50px !important;
+  }
+  label{
+    font-size: 14px !important;
+    font-family: "Roboto", serif !important;
+  }
+  .dropdown{
+    width: 73rem !important;
+  }
+
+/* Fixed Header */
+ .addProdut h1{
+  width: 30%;
+ }
+.addProdut {
+    font-family: "Roboto", serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #ddd; 
+    z-index: 1000; 
+  }
+
+  .body-content {
+    margin-top: 80px; 
+  }
+
+  .addProdut .row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .addProdut .row .col-lg-4 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cacel-btn button {
+    padding: 10px 20px;
+    border: 1px solid #000 !important;
+    color: rgb(5, 5, 5) !important;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .cacel-btn button:hover {
+    background-color: #2698f0;
+  }
+  .cacel-btn {
+    margin-left: 10px;
+  }
+
+  /* Add Sku css start  */
+
+  .sku-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sku-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .sku-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .add-sku-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .add-sku-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  .table-container {
+    border: 1px solid #ddd;
+    overflow-x: hidden;
+  }
+  
+  .sku-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px !important;
+  }
+  
+  .sku-table th,
+  .sku-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .sku-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .button-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cancel-btn {
+    background-color: #fff;
+    /* border: 1px solid #aaa; */
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .save-draft-btn {
+    background-color: #b3e5fc;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    cursor: not-allowed;
+  }
+  
+  .save-btn {
+    background-color: #4dc0b5;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #3baea0;
+  }
+  
+  
+  
+
+
+  
